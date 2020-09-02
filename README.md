@@ -5,7 +5,7 @@ A new Flutter project.
 ## Getting Started
 Home Screen
 
-![](assests/s1.png)
+![](assets/s1.png)
 
 Details Screen
 ![](assets/s2.png)

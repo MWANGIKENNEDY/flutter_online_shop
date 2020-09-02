@@ -3,8 +3,11 @@
 A new Flutter project.
 
 ## Getting Started
+Home Screen
+![](assests/s1.png)
 
-![](assests/images/s1.png)
+Details Screen
+![](assets/sc.png)
 
 This project is a starting point for a Flutter application.
 

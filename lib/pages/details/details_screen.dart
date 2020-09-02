@@ -13,6 +13,7 @@ class DetailsScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: product.color,
       appBar: buildAppBar(context),
       body: Body(product: product),
 
@@ -21,11 +22,11 @@ class DetailsScreen extends StatelessWidget {
 
   AppBar buildAppBar(BuildContext context) {
     return AppBar(
-      backgroundColor: Colors.white,
+      backgroundColor: product.color,
       elevation: 0,
       leading: IconButton(
         icon: Icon(Icons.arrow_back,
-        color: product.color,
+        color: Colors.white,
         ),
 
         onPressed: ()=>{
@@ -36,10 +37,10 @@ class DetailsScreen extends StatelessWidget {
       ),
       actions: [
         IconButton(
-          icon: Icon(Icons.add_shopping_cart),
+          icon: Icon(Icons.add_shopping_cart,color: Colors.white,),
         ),
         IconButton(
-          icon: Icon(Icons.zoom_in),
+          icon: Icon(Icons.zoom_in,color: Colors.white,),
         ),
       ],
     );
